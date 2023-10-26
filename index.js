@@ -26,6 +26,7 @@ app.get('/api/hello', function (req, res) {
 
 // your first API endpoint...
 app.get('/api/whoami', function (req, res) {
+  // console.log(req.headers['via'])
   /* console.log(req.params, req.query)
   console.log(req.socket.remoteAddress)
   console.log(req.headers['x-original-forwarded-for'])
